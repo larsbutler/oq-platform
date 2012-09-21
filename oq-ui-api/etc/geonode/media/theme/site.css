@@ -165,15 +165,15 @@ padding: 2px 10px 2px 2px;
 #logo {
 float: left; 
 width: 371px;
-height: 46px;
-background: url(img/opengem_logo.png) no-repeat;
+height: 60px;
+background: url(img/OQ_header_elements-05.png) no-repeat;
 overflow: hidden;
 text-indent: -9999em;
 }
 
 #login-area {
 position: absolute;
-top: 50%;
+top: 80%;
 right: 0;
 margin-top: -0.5em;
 text-align: right;

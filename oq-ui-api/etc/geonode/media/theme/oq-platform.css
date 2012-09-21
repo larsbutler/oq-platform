@@ -212,7 +212,7 @@ ul.topmenu li.decide a.selected {
 	list-style:none;
 	position:absolute;
 	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
-        z-index: 80;
+        z-index: 80000;
 }
 
 #submenu ul li{
@@ -275,7 +275,7 @@ ul.topmenu li.decide a.selected {
 
 /* second level */
 #submenu ul li ul li {
-	z-index: 100;
+	z-index: 80100;
 }
 
 
