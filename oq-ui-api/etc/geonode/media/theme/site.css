@@ -145,6 +145,17 @@ width: auto; /*fullscreen Ext pages */
 margin: 0 auto;
 }
 
+#header {
+        min-width: 1024px;
+        width: 100%;
+        height: 65px;
+        background-image: url(img/OQ_header_elements-06.png);
+        background-position: right;
+        background-repeat: repeat;
+        background-color: #000;
+        position: relative;
+}
+
 /*#header { */
 /* background: #00a6d3 url(img/oq-header-bg.png) repeat-x; */
 /*background: #808080; */
@@ -195,16 +206,16 @@ text-decoration: underline;
 }
 
 #crossbar {
-/* background: #003c4c; */
-background: url("img/submenu_bg.png") repeat-x scroll 0 0 transparent;
-/* border-bottom: 2px solid #008cb3; */
-/*color: #fff;*/
+background: #1b75a7;
+/* background: url("img/submenu_bg.png") repeat-x scroll 0 0 transparent;*/
+border-bottom: 2px solid #1b75a7; 
+/*color: #2e4a81;*/
 }
 
 /* needs to match crossbar, but also have self-clearing float behavior */
 #topPanel {
-background: #003c4c;
-border-bottom: 2px solid #008cb3;
+background: #1b75a7;
+border-bottom: 2px solid #1b75a7;
 color: #fff;
 padding: 8px 10px;
 }

@@ -68,7 +68,7 @@ ul.topmenu li a {
 	display: block;
 	width: 122px;
 	height: 31px;
-	background: url(img/topmenu_bg.png);
+/*	background: url(img/topmenu_bg.png);*/
 	}
 
 /*
@@ -170,7 +170,7 @@ ul.topmenu li.decide a.selected {
 #submenu {
 	width: 140%;
 	height: 26px;
-	background: url(img/submenu_bg.png);
+/*	background: url(img/submenu_bg.png);*/
 	background-repeat: repeat-x;
 	float: left;
 	clear: left;
@@ -238,8 +238,7 @@ ul.topmenu li.decide a.selected {
 }
 
 #submenu li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-	background: #2E4A81;
-	background-image: url(img/drop_menu_bg.png);
+	background: #1b75a7;
 	background-repeat: repeat-y;
 	text-decoration: none;
 }
