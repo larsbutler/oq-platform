@@ -19,9 +19,9 @@ body {
 	min-width: 1024px;
 	width: 100%;
 	height: 65px;
-	background-image: url(img/header_bg.png);
+	background-image: url(img/OQ_header_elements-06.png);
 	background-position: right;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-color: #000;
 	position: relative;
 }

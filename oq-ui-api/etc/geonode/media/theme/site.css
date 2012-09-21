@@ -145,13 +145,13 @@ width: auto; /*fullscreen Ext pages */
 margin: 0 auto;
 }
 
-#header {
+/*#header { */
 /* background: #00a6d3 url(img/oq-header-bg.png) repeat-x; */
-background: #808080;
+/*background: #808080; */
 /* border-top: 1px solid #7a7a7a;
 border-bottom: 2px solid #008cb3; */
-font-size: 1.2em;
-}
+/*font-size: 1.2em; */
+/*} */
 
 #header .wrap {
 min-height: 1em;
@@ -184,7 +184,7 @@ right: 10px;
 }
 
 #login-area a {
-color: #fff;
+color: #1b75a7;
 font-weight: bold;
 text-decoration: none;
 }
@@ -198,7 +198,7 @@ text-decoration: underline;
 /* background: #003c4c; */
 background: url("img/submenu_bg.png") repeat-x scroll 0 0 transparent;
 /* border-bottom: 2px solid #008cb3; */
-color: #fff;
+/*color: #fff;*/
 }
 
 /* needs to match crossbar, but also have self-clearing float behavior */
