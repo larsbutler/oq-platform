@@ -45,18 +45,6 @@ class FaultSourceAutoComputedTest(TestCase):
             u_sm_d_com=1, low_d_com=1, dip_com=1, dip_dir_com=1, net_slip_rate_com=2)
         self.fault_section.save()
 
-        # self.fault = models.Fault(
-        #     fault_name="Test Fault",
-        #     strike=30,
-        #     episodic_behaviour="test behavior",
-        #     down_thro='N')
-        # self.fault.save()
-
-        # self.fault_source = models.FaultSource(
-        #     fault_name="test fault name", source_nm = "test source name",
-        #     geom="POLYGON ((174.6608247161522343 -41.3325857017038274 0.0, 174.6754120322273991 -41.3357535360505040 0.0, 174.6705494358949409 -41.3346977959105359 0.0, 174.6656869971967012 -41.3336418511235664 0.0, 174.6608247161522343 -41.3325857017038274 0.0))")
-        # self.fault_source.save()
-
     def _join_traces(self):
         utils.join_traces([self.trace], self.fault_section)
         self.fault_section = models.FaultSection.objects.get(pk=self.fault_section.pk)
