@@ -636,6 +636,10 @@ cd $norm_dir/oq-platform/oq-ui-geoserver
         fi
         sleep 20
     done
+
+    # launch test
+    python ./manage.py test --noinput observations/tests.py
+
     deactivate
 
     #
