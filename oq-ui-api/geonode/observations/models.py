@@ -302,7 +302,7 @@ class Observation(models.Model):
         if all([getattr(self, attr, None) is not None for attr in needed_attrs]):
             self.all_com = (self.u_sm_d_com + self.low_d_com + self.dip_com + self.dip_dir_com + 
                             (self.slip_type_com or SLIP_TYPE_COM_DEFAULT) + 5 * self.net_slip_rate_com +
-                            (self.aseis_com or ASEIS_SLIP_COM_DEFAULT)) / 11.
+                            (self.aseis_com or ASEIS_SLIP_COM_DEFAULT)) / 11
 
 
 class FaultSource(Observation, WithLength, WithArea, WithSlipAndDip,
